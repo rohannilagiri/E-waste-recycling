@@ -1,0 +1,145 @@
+/* Basic styling for the E-Waste project */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f7f0;
+    color: #222;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    color: #2e7d32;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #c8e6c9;
+}
+
+input, textarea {
+    padding: 6px;
+    width: 90%;
+    max-width: 300px;
+}
+
+td input {
+    width: 60px;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+#result {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#message, #confirm {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* Accordion */
+.accordion {
+    background-color: #fff3cd;
+    color: #222;
+    width: 100%;
+    text-align: left;
+    margin-top: 8px;
+    border: 1px solid #e0c36a;
+}
+
+.accordion:hover {
+    background-color: #ffe49a;
+}
+
+.panel {
+    display: none;          /* hidden by default */
+    padding: 10px 15px;
+    background-color: #fffbe8;
+    border: 1px solid #e0c36a;
+}
+
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* For small screens (mobile) */
+@media (max-width: 600px) {
+    nav li {
+        display: block;
+    }
+    input, textarea {
+        width: 100%;
+    }
+}
