@@ -101,8 +101,4 @@ ewaste-project/
 - Add a login page and a reward redemption page
 - Connect to a backend server to manage real pickups
 
-## Author
 
-**Name:** Your Name
-**Course:** B.Tech CSE, 1st Year, Semester 1
-**Subject:** Internet Programming
